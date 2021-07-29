@@ -1,11 +1,28 @@
-.alignment {
+main {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0);
+}
+
+.alignmenttwo {
         position: absolute;
         top: 8px;
         right: 16px;
 }
 
-.containertwo {
-        position: relative;
-        text-align: center;
-        color: white;
-}
+.textcentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .bigtext {
+    position: absolute;
+    margin-top: 25px;
+    right: 16px;
+  }
+
+  .alignmentt {
+      align-items: center;
+  }
