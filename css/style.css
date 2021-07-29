@@ -1,0 +1,11 @@
+.alignment {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+}
+
+.containertwo {
+        position: relative;
+        text-align: center;
+        color: white;
+}
