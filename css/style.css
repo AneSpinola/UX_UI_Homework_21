@@ -3,36 +3,37 @@
     position: relative;
     background-color: rgba(126, 87, 139, 0.664);
     overflow: hidden;
-    font-family: helvetica;
+    font-family: museo;
     font-weight: 200;
 
 }
 
 .TopMenu a {
     float: left;
-    color: rgba(255, 255, 255, 0.692);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 28px;
     text-decoration: none;
     font-size: 17px;
 }
 
 .TopMenu a:hover {
-    background-color: slategrey;
+    background-color: rgb(191, 181, 197);
     color: black;
 }
 
 .TopMenu a.active {
     background-color: rgba(95, 158, 160, 0);
-    color: rgba(44, 44, 44, 0.849);
+    color: rgb(255, 255, 255);
 }
 
 .centeredName a {
         float: none;
         position: absolute;
-        top: 25px;
+        top: 34px;
         left: 50%;
         transform: translate(-50%, -50%);
+        font-size: 22px;
 }
 
 .rightMenu {
@@ -48,8 +49,9 @@
 
   .bigtext {
     position: absolute;
-    margin-top: 50%;
-    right: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 125px;
     font-family: helvetica;
     font-weight: 100;
@@ -59,4 +61,5 @@
 
   .alignmentt {
       align-items: center;
+      margin-left: 28%;
   }
